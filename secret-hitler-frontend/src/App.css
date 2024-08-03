@@ -1,3 +1,5 @@
+/* All the preimported crap */
+
 .App {
   text-align: center;
 }
@@ -39,4 +41,13 @@
 
 .avatar {
   border-radius: 50%;
+}
+/* https://react.dev/learn/tutorial-tic-tac-toe */
+.square{
+  width: 50px;
+  height: 50px;
+}
+
+.board-row{
+  display: flex;
 }
