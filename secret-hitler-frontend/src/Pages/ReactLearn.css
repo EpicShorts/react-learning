@@ -1,0 +1,15 @@
+.square1 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute; /* Make sure this is appropriate */
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    transition: left 5s linear;
+    z-index: 1000; /* Ensure it's on top */
+  }
+  
+  .move {
+    left: calc(100% - 50px); /* Adjust as needed */
+  }
