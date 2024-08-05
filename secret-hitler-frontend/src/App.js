@@ -2,11 +2,11 @@
 //import logo from './logo.svg';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import TicTacToe from './TicTacToe';
-import Menu from './Menu';
+import TicTacToe from './Pages/TicTacToe';
+import Menu from './Menu/Menu';
 import './App.css';
-import ReactLearn from './ReactLearn';
-import ReactStart from './ReactStart';
+import ReactLearn from './Pages/ReactLearn';
+import ReactStart from './Pages/ReactStart';
 
 /*
 function App() {
