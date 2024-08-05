@@ -1,7 +1,13 @@
 
-import logo from './logo.svg';
+//import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import TicTacToe from './TicTacToe';
+import Menu from './Menu';
 import './App.css';
+import ReactLearn from './ReactLearn';
 
+/*
 function App() {
   return (
     <div className="App">
@@ -22,5 +28,22 @@ function App() {
     </div>
   );
 }
+
+export default App;
+*/
+
+const App = () => {
+  return (
+    <Router>
+      <div className="app">
+        <Routes>
+          <Route path="/TicTacToe" element={<TicTacToe />} />
+          <Route path="/ReactLearn" element={<ReactLearn />} />
+        </Routes>
+        <Menu />
+      </div>
+    </Router>
+  );
+};
 
 export default App;
