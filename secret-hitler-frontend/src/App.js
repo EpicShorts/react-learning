@@ -6,6 +6,7 @@ import TicTacToe from './TicTacToe';
 import Menu from './Menu';
 import './App.css';
 import ReactLearn from './ReactLearn';
+import ReactStart from './ReactStart';
 
 /*
 function App() {
@@ -39,6 +40,7 @@ const App = () => {
         <Routes>
           <Route path="/TicTacToe" element={<TicTacToe />} />
           <Route path="/ReactLearn" element={<ReactLearn />} />
+          <Route path="/" element={<ReactStart />} />
         </Routes>
         <Menu />
       </div>
@@ -47,3 +49,5 @@ const App = () => {
 };
 
 export default App;
+
+//<Route path="/" element={<Home />} />
