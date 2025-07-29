@@ -1,7 +1,7 @@
-# Secret Hitler App
+# React Learning
 
 ## Overview
-A full-stack application for playing Secret Hitler.
+Learning how to use react.
 
 ## Setup
 
